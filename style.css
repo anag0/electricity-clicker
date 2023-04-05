@@ -1,0 +1,7 @@
+body, button {
+    font-size: 3rem;
+}
+
+#hamster {
+    cursor: pointer;
+}

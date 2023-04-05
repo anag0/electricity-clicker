@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h2>Energy</h2>
+        <span id="number">0</span>W
+        <button id="mainButton">Make energy</button>    
+    </div>
+    <div>
+        <h2>Buildings</h2>
+        <div id="hamster" data-cost="10" data-output="1">
+            Hamster (1W/s)
+            <img 
+                width="64"
+                height="64" 
+                aria-label="Makes 1W a second"
+                src="images/hamster.png">
+            (<span id="hamsterCount">0</span>)
+        </div>
+    </div>
+</body>
+</html>
